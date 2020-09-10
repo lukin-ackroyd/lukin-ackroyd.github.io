@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="../styles/gallery.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <div class="banner2">
+    <div class="banner2-text">
+      <h1>Hiking Photos</h1>
+      <h2>Just some pictures of Adventures</h2>
+    </div>
+  </div>
+</head>
+<body>
+  <div class="row">
+    <div class="column">
+      <img src="../styles/familynaki.jpg" alt="Nature" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="../styles/lostinthebush.jpg" alt="Snow" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="../styles/nakimt.jpg" alt="Mountains" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="../styles/twelveapostles.jpg" alt="Lights" onclick="myFunction(this);">
+    </div>
+  </div>
+   
+  <div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+    <img id="expandedImg" style="width:50%">
+
+    <div id="imgtext"></div>
+  </div>
+
+  <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      var imgText = document.getElementById("imgtext");
+      expandImg.src = imgs.src;
+      imgText.innerHTML = imgs.alt;
+      expandImg.parentElement.style.display = "block";
+    }
+    </script>
+</body>
