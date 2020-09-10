@@ -102,7 +102,7 @@ body, html {
     color: white;
   }
 
-  .banner3-text {
+.banner3-text {
     text-align: center;
     position: relative;
     top: 50%;
@@ -110,3 +110,42 @@ body, html {
     transform: translate(-50%, -50%);
     color: white;
   }
+
+.example
+ {
+  text-align: center;
+  background-color: lightgrey;
+  width: 840px;
+  margin: 20px solid;
+  border: 15px solid white;
+  padding: 50px solid;
+}
+
+.example2
+ {
+  text-align: center;
+  background-color:#C19A6B;
+  width: 880px;
+  margin: 20px solid;
+  border: 15px solid #C19A6B;
+  padding: 50px solid;
+ }
+
+ .example3
+ {
+  text-align: center;
+  background-color:black;
+  width: 915px;
+  margin: 20px solid;
+  border: 15px solid black;
+  padding: 50px solid;
+ }
+
+ .example4
+ {
+  background-color: white;
+  width: 1500px;
+  margin: 20px;
+  border: 15px solid #C19A6B;
+  padding: 100px;
+}
