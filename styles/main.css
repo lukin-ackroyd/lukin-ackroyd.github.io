@@ -13,10 +13,12 @@ font-family: 'Lobster', cursive;}
 
 h3
 {font-size: 25pt;
+margin: 20px;
 font-family: 'Lobster', cursive;}
 
 p
 {font-size: 20pt;
+margin: 20px;
 font-family: 'Open Sans', sans-serif;}
 
 a
