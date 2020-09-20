@@ -145,6 +145,7 @@ body, html {
 
  .example4
  {
+  display: inline-block;
   background-color: white;
   width: 1500px;
   margin: 20px;
